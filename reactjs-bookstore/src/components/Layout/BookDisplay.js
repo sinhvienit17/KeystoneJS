@@ -40,7 +40,7 @@ function BookDisplay() {
         <Content style={{ margin: '2px 16px' }}>
           <SortPane />
           <FilterPane />
-          {param.state === undefined ?
+          {param.state === undefined || null ?
             <div className="site-layout-background" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'flex' }}>
               {choose === null ?
                 databooks.map(book => {
