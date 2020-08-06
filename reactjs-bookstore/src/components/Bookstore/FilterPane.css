@@ -1,0 +1,11 @@
+.ant-row {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 13px 25px;
+}
+.ant-col.ant-col-2 {
+    padding: 0 0 0 15px;
+}
+.ant-col.ant-col-4 {
+    padding: 0 0 0 23px;
+}
